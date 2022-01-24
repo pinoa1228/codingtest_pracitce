@@ -7,7 +7,6 @@ def change(time):
     h,m=time.split(":")
     return int(h)*60+int(m)
 times = list(input().split())
-# 처음부터 다 계산하려니 시간초과남
 S = int(times[0][:2]+times[0][3:])
 E = int(times[1][:2]+times[1][3:])
 Q = int(times[2][:2]+times[2][3:])
